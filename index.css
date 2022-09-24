@@ -101,6 +101,7 @@ body{
     
     margin-left: 40%;
     height: 50%;
+    
 }
 .carousel-text{
     width: 30%;
@@ -112,6 +113,8 @@ body{
     margin-left: 11%;
     font-family:'Quicksand', sans-serif;
     color:lightgray;
+    border-top: lightgrey 1px solid;
+    padding: 2px;
     
 }
 #about-me h3{
