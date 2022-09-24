@@ -1,0 +1,130 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #1d1d20;
+    animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode:forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+}
+#welcome-col{
+    margin-top: 150px;
+    margin-left: 150px;
+    width: 650px;
+    color: lightgrey;
+    font-family: 'Quicksand', sans-serif;
+    display: inline-block;
+    border-bottom: 2px solid white;
+    
+}
+.welcome-heading {  
+    font-size: 90px; 
+    letter-spacing: 7px;
+    
+}
+
+#top-menu{
+
+    margin-left: 600px;
+}
+.menu-icon{
+    background-color: lightgrey;
+    padding: 5px;
+    border-radius: 20%;
+    width: 5%;
+    margin: 10px;
+}
+.menu-icon:hover{
+    width: 8%;
+    
+}
+#project{
+    border-top: 1px solid white;
+    transition: width 2s;
+    display: inline-block;
+    padding-left: 2px;
+    margin-left: 100px;
+    height: 200px;
+    width: 400px;
+    color: lightgrey;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.projects{
+    list-style-type: none;
+    font-size: 20px;
+}
+#skill{
+    margin-top: 10%;
+    margin-left: 11%;   
+    display: inline-block;
+    font-size: 40px;
+    color: lightgrey;
+    font-family:'Quicksand', sans-serif; 
+    
+}
+
+.skills{
+    
+    list-style-type: none;
+    font-size: 20px;
+    border-left: white 1px solid;
+    padding-left: 5px;
+    margin: 10px;
+    float: right;
+    width: 250px;
+    
+}
+
+#carouselExampleIndicators{
+    
+    display: block;
+    margin-top: 10%;
+    
+}
+#carouselExampleIndicators h3{
+    color: lightgrey;
+    font-family:'Quicksand', sans-serif;  
+    margin-left: 11%;
+    font-size: 40px;
+}
+#carousel{
+    
+    margin-left: 40%;
+    height: 50%;
+}
+.carousel-text{
+    width: 30%;
+    color: lightgrey;
+    font-family:'Quicksand', sans-serif;
+}
+#about-me{
+    margin-top: 10%;
+    margin-left: 11%;
+    font-family:'Quicksand', sans-serif;
+    color:lightgray;
+    
+}
+#about-me h3{
+    font-size: 40px;
+}
+#about-me p{
+    font-size: 20px;
+}
+.pic{
+    max-height: 10%;
+    max-width: 10%;
+    border-radius: 50%;
+    float: right;
+}
+
+
